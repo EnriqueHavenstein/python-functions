@@ -11,7 +11,7 @@ while number >= current:
 
 print(product)
 
-##
+## while with step
 
 start_num = int(input('Start number: '))
 end_num = int(input('End number: '))
@@ -28,3 +28,17 @@ else:
     result = break_num
 
 print(result)
+
+## nearest square
+
+limit = int(input('Set limit: '))
+nearest_square = 1
+count = 1
+
+while count**2 < limit:
+    nearest_square = count **2
+    count += 1
+
+print(nearest_square)
+
+## 
