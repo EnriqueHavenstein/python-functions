@@ -34,4 +34,36 @@ for point in zip(labels, x_coord, y_coord, z_coord):
 for point in points:
     print(point)
 
-#
+# create a dictionary with zip
+
+cast_names = ["Barney", "Robin", "Ted", "Lily", "Marshall"]
+cast_heights = [72, 68, 72, 66, 76]
+
+cast = dict(zip(cast_names, cast_heights))
+print(cast)
+
+# unzip tuples
+
+cast = (("Barney", 72), ("Robin", 68), ("Ted", 72), ("Lily", 66), ("Marshall", 76))
+
+names, heights = zip(*cast)
+
+print(names)
+print(heights)
+
+# transpose with zip
+
+data = ((0, 1, 2), (3, 4, 5), (6, 7, 8), (9, 10, 11))
+
+data_transpose = tuple(zip(*data))
+print(data_transpose)
+
+# enumerate for modifying a list
+
+cast = ["Barney Stinson", "Robin Scherbatsky", "Ted Mosby", "Lily Aldrin", "Marshall Eriksen"]
+heights = [72, 68, 72, 66, 76]
+
+for i, character in enumerate(cast):
+    cast[i] = character + ': ' + str(heights[i])
+
+print(cast)
