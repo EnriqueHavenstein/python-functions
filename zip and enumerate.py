@@ -34,6 +34,8 @@ for point in zip(labels, x_coord, y_coord, z_coord):
 for point in points:
     print(point)
 
+print(points)
+
 # create a dictionary with zip
 
 cast_names = ["Barney", "Robin", "Ted", "Lily", "Marshall"]
