@@ -73,30 +73,3 @@ print(type(c))
 x = int(1)   # x will be 1
 y = int(2.8) # y will be 2
 z = int("3") # z will be 3
-
-# multiline strings
-
-a = '''Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
-
-print(a)
-
-# strings are arrays
-
-a = "Hello, World!"
-print(a[1])
-
-for letter in 'banana':
-    print(letter)
-
-# length of a string: len()
-
-x = 'Hello'
-print(len(x))
-
-# check string
-
-
-
