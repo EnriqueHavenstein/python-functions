@@ -27,7 +27,7 @@ print("free" in txt)
 
 txt = "The best things in life are free!"
 if "free" in txt:
-  print("Yes, 'free' is present.")
+    print("Yes, 'free' is present.")
 
 # check if not
 
@@ -59,12 +59,12 @@ print(b.lower())
 # strip() method removes any whitespace from the beginning or the end
 
 a = '    I have done this      '
-print(a.strip())
+print(a.strip())                 # returns 'I have done this'
 
 # replace() method replaces a string with another string
 
 a = 'Hello, World'
-print(a.replace('l',' '))
+print(a.replace('l', ' '))
 
 # split() method splits the string into substrings if it finds instances of the separator
 
