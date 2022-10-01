@@ -47,6 +47,31 @@ print(len(list_1))
 
 # insert items
 
+list_1 = ['apple', 'banana', 'cherry']
+list_1.insert(2, 'watermelon')
+print(list_1)
 
+# add list items
 
+list_1 = ['apple', 'banana', 'orange']
+list_1.append('watermelon')
+print(list_1)
 
+# extend list
+
+list_1 = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+list_1.extend(tropical)
+print(list_1)
+
+# remove list items
+
+list_1 = ["apple", "banana", "cherry"]
+list_1.remove("banana")                         # .remove() method
+print(list_1)
+
+# remove specified index
+
+list_1 = ["apple", "banana", "cherry"]
+list_1.pop("banana")                         # .pop() method
+print(list_1)
