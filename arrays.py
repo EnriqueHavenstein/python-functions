@@ -73,5 +73,31 @@ print(list_1)
 # remove specified index
 
 list_1 = ["apple", "banana", "cherry"]
-list_1.pop("banana")                         # .pop() method
+list_1.pop(1)                                   # .pop() method, when used without argument removes last item
+print(list_1)
+del list_1[0]
+print(list_1)
+list_1.clear()                                  # .clear() the list still exist but has no items
+print(list_1)
+
+# copy a list: don't do list_1 = list_2
+
+list_1 = ["apple", "banana", "cherry"]
+list_2 = list_1.copy()
+print(list_2)
+
+# join lists
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3)
+
+list_1 = ["a", "b" , "c"]
+list_2 = [1, 2, 3]
+
+for x in list_2:
+  list_1.append(x)
+
 print(list_1)
