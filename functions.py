@@ -15,7 +15,8 @@ my_function('Tom')
 
 
 def my_function(*kids):
-    print('The youngest child is ' + kids[2])       # if the number of arguments is not defined, * and list
+    print('The youngest child is ' + kids[2])       # if the number of arguments is not defined, * and receive tuple
+
 
 my_function('Emil', 'Mark', 'Linus')
 
@@ -23,4 +24,7 @@ my_function('Emil', 'Mark', 'Linus')
 def my_function(child3, child2, child1):
   print("The youngest child is " + child3)
 
-my_function(child1 = "Emil", child2 = "Tobias", child3 = "Linus
+
+my_function(child1="Emil", child2="Tobias", child3="Linus")     # This way the order of the argument does not matter
+
+
