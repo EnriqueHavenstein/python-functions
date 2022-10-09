@@ -76,3 +76,10 @@ def tri_recursion(k):                               # recursion: a function can 
 
 print("\n\nRecursion Example Results")
 tri_recursion(6)
+
+# lambda function
+
+x = lambda a: a + 10
+print(x(5))
+
+
