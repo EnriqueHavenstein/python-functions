@@ -79,7 +79,18 @@ tri_recursion(6)
 
 # lambda function
 
-x = lambda a: a + 10
-print(x(5))
+h = lambda a: a + 10
+print(h(5))
 
+m = lambda a, b, c: a + b + c
+print(m(4, 5, 1))
+
+
+def my_function(n):
+    return lambda a: a ** n
+
+
+power_2 = my_function(2)
+
+print(power_2(4))
 
